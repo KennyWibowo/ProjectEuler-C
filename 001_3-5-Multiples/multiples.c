@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int sum = 0;
-int multiple1 = 3;
-int multiple2 = 5;
-int upperLimit = 1000;
-
 void main(){
-	
+
+	int sum = 0;
+	int upperLimit = 1000;
+	int multiple1 = 3;
+	int multiple2 = 5;	
 	int multiplemultiple = multiple1*multiple2;
 	int lim1 = 1000/multiple1;
 	int lim2 = 1000/multiple2;
